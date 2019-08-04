@@ -101,11 +101,11 @@ FNMoney *formattedMoney = [[FNMoney alloc] initWithNumber:@(1002.923389) abbrevi
 // Default cutoffs
 formattedMoney.abbreviationCutOffs = @[
     [[FNAbbreviationCutOff alloc] initWithMinimumAbsoluteValue:1000000000
-                                                        symbol:NSLocalizedString(@"b", @"Number Formatter Abreviation Billion")],
+                                                        symbol:NSLocalizedString(@"b", @"Number Formatter Abbreviation Billion")],
     [[FNAbbreviationCutOff alloc] initWithMinimumAbsoluteValue:1000000
-                                                        symbol:NSLocalizedString(@"m", @"Number Formatter Abreviation Million")],
+                                                        symbol:NSLocalizedString(@"m", @"Number Formatter Abbreviation Million")],
     [[FNAbbreviationCutOff alloc] initWithMinimumAbsoluteValue:1000
-                                                        symbol:NSLocalizedString(@"k", @"Number Formatter Abreviation Thousands")]
+                                                        symbol:NSLocalizedString(@"k", @"Number Formatter Abbreviation Thousands")]
 ];
 ```
 
